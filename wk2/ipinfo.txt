@@ -1,0 +1,27 @@
+1.Domain Name: gmail.com
+
+IP Address: 172.217.6.229
+
+Geolocation: US (United States), CA, California, 94043 Mountain
+
+2.Domain Name: yahoo.com
+IP Address: 72.30.35.10
+
+Geolocation: US (United States), CA, California, 94089 Sunnyvale
+
+3.Domain Name: education.ca
+
+IP Address: 23.236.62.147
+
+Geolocation: US (United States), CA, California, 94043 Mountain View
+
+4.Domain Name: amazon.com
+IP Address: 176.32.98.166
+
+Geolocation: US (United States), VA, Virginia, 20149 Ashburn
+
+5.Domain Name: youtube.com
+IP Address: 172.217.12.142
+
+Geolocation: US (United States), CA, California, 94043 Mountain View
+

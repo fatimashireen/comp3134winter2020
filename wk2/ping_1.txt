@@ -1,0 +1,36 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~#
+root@lamp-s-1vcpu-1gb-tor1-01:~#
+root@lamp-s-1vcpu-1gb-tor1-01:~# ping gmail.com
+PING gmail.com (172.217.164.229) 56(84) bytes of data.
+64 bytes from yyz12s05-in-f5.1e100.net (172.217.164.229): icmp_seq=1 ttl=58 time=1.84 ms
+64 bytes from yyz12s05-in-f5.1e100.net (172.217.164.229): icmp_seq=2 ttl=58 time=0.931 ms
+64 bytes from yyz12s05-in-f5.1e100.net (172.217.164.229): icmp_seq=3 ttl=58 time=0.917 ms
+64 bytes from yyz12s05-in-f5.1e100.net (172.217.164.229): icmp_seq=4 ttl=58 time=0.907 ms
+64 bytes from yyz12s05-in-f5.1e100.net (172.217.164.229): icmp_seq=5 ttl=58 time=0.866 ms
+64 bytes from yyz12s05-in-f5.1e100.net (172.217.164.229): icmp_seq=6 ttl=58 time=0.974 ms
+64 bytes from yyz12s05-in-f5.1e100.net (172.217.164.229): icmp_seq=7 ttl=58 time=0.961 ms
+64 bytes from yyz12s05-in-f5.1e100.net (172.217.164.229): icmp_seq=8 ttl=58 time=0.906 ms
+64 bytes from yyz12s05-in-f5.1e100.net (172.217.164.229): icmp_seq=9 ttl=58 time=0.942 ms
+64 bytes from yyz12s05-in-f5.1e100.net (172.217.164.229): icmp_seq=10 ttl=58 time=0.958 ms
+64 bytes from yyz12s05-in-f5.1e100.net (172.217.164.229): icmp_seq=11 ttl=58 time=0.949 ms
+64 bytes from yyz12s05-in-f5.1e100.net (172.217.164.229): icmp_seq=12 ttl=58 time=0.924 ms
+^C
+--- gmail.com ping statistics ---
+12 packets transmitted, 12 received, 0% packet loss, time 11034ms
+rtt min/avg/max/mdev = 0.866/1.006/1.840/0.253 ms
+root@lamp-s-1vcpu-1gb-tor1-01:~# ping gmail.com -w 8
+PING gmail.com (172.217.164.229) 56(84) bytes of data.
+64 bytes from yyz12s05-in-f5.1e100.net (172.217.164.229): icmp_seq=1 ttl=58 time=1.89 ms
+64 bytes from yyz12s05-in-f5.1e100.net (172.217.164.229): icmp_seq=2 ttl=58 time=0.939 ms
+64 bytes from yyz12s05-in-f5.1e100.net (172.217.164.229): icmp_seq=3 ttl=58 time=0.999 ms
+64 bytes from yyz12s05-in-f5.1e100.net (172.217.164.229): icmp_seq=4 ttl=58 time=1.00 ms
+64 bytes from yyz12s05-in-f5.1e100.net (172.217.164.229): icmp_seq=5 ttl=58 time=0.955 ms
+64 bytes from yyz12s05-in-f5.1e100.net (172.217.164.229): icmp_seq=6 ttl=58 time=0.985 ms
+64 bytes from yyz12s05-in-f5.1e100.net (172.217.164.229): icmp_seq=7 ttl=58 time=0.998 ms
+64 bytes from yyz12s05-in-f5.1e100.net (172.217.164.229): icmp_seq=8 ttl=58 time=1.00 ms
+
+--- gmail.com ping statistics ---
+8 packets transmitted, 8 received, 0% packet loss, time 7009ms
+rtt min/avg/max/mdev = 0.939/1.098/1.895/0.302 ms
+root@lamp-s-1vcpu-1gb-tor1-01:~# ^C
+root@lamp-s-1vcpu-1gb-tor1-01:~#

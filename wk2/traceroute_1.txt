@@ -1,0 +1,10 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# traceroute gmail.com
+traceroute to gmail.com (172.217.164.229), 64 hops max
+  1   *  *  *
+  2   10.78.4.0  0.971ms  2.733ms  0.374ms
+  3   138.197.249.86  0.768ms  0.353ms  0.349ms
+  4   162.243.190.33  0.869ms  0.431ms  0.386ms
+  5   74.125.244.161  1.717ms  1.262ms  1.270ms
+  6   216.239.41.247  1.343ms  0.839ms  0.840ms
+  7   172.217.164.229  1.608ms  1.214ms  1.236ms
+root@lamp-s-1vcpu-1gb-tor1-01:~#
