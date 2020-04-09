@@ -1,0 +1,21 @@
+<h1>Reflected XSS</h1>
+
+<script>
+function submitClick(){
+        const data=document.getElementById("name").value
+        document.getElementById("output").innerHTML=data
+        event.preventDefault();
+}
+</script>
+
+<form method="post" onSubmit="submitClick()">
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+   </div>
+
+   <div class="submit">
+        <input type="submit" name="rsubmit" id="rsubmit">
+   </div>
+</form>
+<div id="output"></div>

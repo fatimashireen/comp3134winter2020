@@ -1,0 +1,1 @@
+the script that takes us to the traversal 1 php directory but nothing runs. So there is a chance of attacking.
